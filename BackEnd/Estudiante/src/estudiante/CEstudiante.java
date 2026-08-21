@@ -20,7 +20,6 @@ public class CEstudiante {
 
     //Insertar el constructor con sus atributos
 
-    
     //Getters y Setters
     public String getNombre() {
         return nombre;
