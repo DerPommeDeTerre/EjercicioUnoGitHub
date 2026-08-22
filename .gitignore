@@ -36,3 +36,7 @@ build/
 .vscode/
 .idea/
 *.iml
+
+#NetBeans
+/JavaInterface/JavaInterfaz/nbproject/private/
+/BackEnd/Estudiante/nbproject/private/
