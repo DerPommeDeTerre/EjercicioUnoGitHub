@@ -33,11 +33,11 @@ function calcular(a, b) {
 }
 
 // Pasar los valores 10 y 5 a la función calcular
-var resultado = calcular(, );
+var resultado = calcular(10, 5 );
 
 //Desplegar el resultado de los cálculos en la consola
-console.log("Suma: " + );
-console.log("Resta: " + );
-console.log("Multiplicación: " + );
-console.log("División: " + );
-console.log("Potencia: " + );
+console.log("Suma: " + resultado.suma );
+console.log("Resta: " + resultado.resta );
+console.log("Multiplicación: " + resultado.multiplicacion );
+console.log("División: " + resultado.division );
+console.log("Potencia: " + resultado.potencia );
