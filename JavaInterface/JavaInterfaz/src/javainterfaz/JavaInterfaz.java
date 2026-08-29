@@ -31,7 +31,7 @@ public class JavaInterfaz {
         
         
         //Arreglar el ENHANCED FOR para desplegar los datos de los clientes****************
-        for(elemento:listaClientes){
+        for(Cliente elemento:listaClientes){
             
             System.out.println("***************************************");
             System.out.println("Cliente ID: " + elemento.getIdCliente());

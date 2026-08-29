@@ -11,8 +11,9 @@ package javainterfaz;
 
 
 //*****************Implementar la interfaz IComprar******************
-public class Cliente {
+public class Cliente implements IComprar{
     
+        
     private String idCliente;
     private String nombre;
     private String apellido;
@@ -30,10 +31,12 @@ public class Cliente {
     
     //************Implementar la Interfaz IComprar*********************
     //************Con las siguientes impresiones en pantalla*********************
-   
-    //System.out.println(nombre + " compró " + producto);
-    //System.out.println("Pagó: " + precio);
- 
+   @Override
+   public void comprar(String producto, double precio){
+       System.out.println(nombre + " compró " + producto);
+        System.out.println("Pagó: " + precio);
+   }
+
 
     public String getIdCliente() {
         return idCliente;
