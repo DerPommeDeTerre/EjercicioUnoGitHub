@@ -11,7 +11,7 @@
     <h2>Ejercicio POST</h2>
 
     <form action="post.php" method="POST">
-        <label for="cancion">Canción: </label>
+        <label for="canción">Canción: </label>
         <input type="text" id="cancion" name="cancion">
         <br>
 
@@ -32,8 +32,12 @@
     //Imprimir en pantalla los valores clave:valor del POST
     //recorriendo el POST con un FOREACH
 
-    //Ejemplo
-    if(!empty($_POST)){
-        //Función FOREACH
+   
+   
+    if (!empty($_POST)) {
+        // Recorrer cada clave y valor del arreglo POST
+        foreach ($_POST as $clave => $valor) {
+            echo " El campo es: " .$clave." y el valor: " .$valor. "<br>";
+        }
     }
 ?>
