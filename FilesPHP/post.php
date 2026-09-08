@@ -31,13 +31,14 @@
 <?php
     //Imprimir en pantalla los valores clave:valor del POST
     //recorriendo el POST con un FOREACH
-
-   
-   
     if (!empty($_POST)) {
         // Recorrer cada clave y valor del arreglo POST
         foreach ($_POST as $clave => $valor) {
             echo " El campo es: " .$clave." y el valor: " .$valor. "<br>";
         }
     }
+    //Ejemplo
+    // if(!empty($_POST)){
+        //Función FOREACH
+    // }
 ?>

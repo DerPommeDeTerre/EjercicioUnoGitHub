@@ -19,11 +19,10 @@
 
         <!--Agrega otro LABEL para la especia de la mascota-->
         <!--FOR debe compartir el nombre con ID y NAME en INPUT-->
-
+        
         <!-- Agrega otro INPUT para la especia de la mascota-->
         <!--TYPE debe ser de tipo texto, ID y NAME compartirán el mismo nombre que en FOR en LABEL-->
 
     </form>
 </body>
-
 </html>
