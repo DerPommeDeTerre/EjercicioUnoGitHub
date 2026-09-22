@@ -20,8 +20,6 @@
     for($i = 0; $i < count($arreglo); $i++){
         echo "{$i} <br>";
     }
-
 //Implementar un ciclo FOREACH para imprimir los títulos de los libros
-
 
 ?>
